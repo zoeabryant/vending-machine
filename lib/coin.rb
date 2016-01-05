@@ -1,8 +1,7 @@
 class Coin
-  attr_reader :name, :value
+  attr_reader :value
 
-  def initialize(name, value)
-    @name = name
+  def initialize(value)
     @value = value
   end
 
@@ -11,7 +10,7 @@ end
 class OnePence < Coin
 
   def initialize
-    super "1p", 1
+    super 1
   end
 
 end
@@ -19,7 +18,7 @@ end
 class TwoPence < Coin
 
   def initialize
-    super "2p", 2
+    super 2
   end
 
 end
@@ -27,7 +26,7 @@ end
 class FivePence < Coin
 
   def initialize
-    super "5p", 5
+    super 5
   end
 
 end
@@ -35,7 +34,7 @@ end
 class TenPence < Coin
 
   def initialize
-    super "10p", 10
+    super 10
   end
 
 end
@@ -43,7 +42,7 @@ end
 class TwentyPence < Coin
 
   def initialize
-    super "20p", 20
+    super 20
   end
 
 end
@@ -51,7 +50,7 @@ end
 class FiftyPence < Coin
   
   def initialize
-    super "50p", 50
+    super 50
   end
 
 end
@@ -59,7 +58,7 @@ end
 class OnePound < Coin
   
   def initialize
-    super "£1", 100
+    super 100
   end
 
 end
@@ -67,7 +66,7 @@ end
 class TwoPounds < Coin
   
   def initialize
-    super "£2", 200
+    super 200
   end
 
 end
