@@ -18,7 +18,7 @@ end
 
 describe OnePence do
 
-  it "has a name 1p" do
+  it "has a name: 1p" do
     expect(OnePence.new.name).to eql "1p"
   end
 
@@ -28,9 +28,21 @@ describe OnePence do
 
 end
 
+describe TwoPence do
+
+  it "has a name: 2p" do
+    expect(TwoPence.new.name).to eql "2p"
+  end
+
+  it "has a value in pence: 2" do
+    expect(TwoPence.new.value).to eql 2
+  end
+
+end
+
 describe FiftyPence do
 
-  it "has a name 50p" do
+  it "has a name: 50p" do
     expect(FiftyPence.new.name).to eql "50p"
   end
 

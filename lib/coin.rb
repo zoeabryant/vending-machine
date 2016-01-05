@@ -16,6 +16,14 @@ class OnePence < Coin
 
 end
 
+class TwoPence < Coin
+
+  def initialize
+    super "2p", 2
+  end
+
+end
+
 class FiftyPence < Coin
   
   def initialize
