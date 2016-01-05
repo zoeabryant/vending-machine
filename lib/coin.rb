@@ -55,3 +55,11 @@ class FiftyPence < Coin
   end
 
 end
+
+class OnePound < Coin
+  
+  def initialize
+    super "£1", 100
+  end
+
+end
