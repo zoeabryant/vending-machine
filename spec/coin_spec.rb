@@ -99,3 +99,15 @@ describe OnePound do
   end
 
 end
+
+describe TwoPounds do
+
+  it "has a name: £2" do
+    expect(TwoPounds.new.name).to eql "£2"
+  end
+
+  it "has a value in pence: 200" do
+    expect(TwoPounds.new.value).to eql 200
+  end
+
+end

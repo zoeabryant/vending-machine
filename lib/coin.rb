@@ -63,3 +63,11 @@ class OnePound < Coin
   end
 
 end
+
+class TwoPounds < Coin
+  
+  def initialize
+    super "£2", 200
+  end
+
+end
