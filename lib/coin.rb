@@ -24,6 +24,14 @@ class TwoPence < Coin
 
 end
 
+class FivePence < Coin
+
+  def initialize
+    super "5p", 5
+  end
+
+end
+
 class FiftyPence < Coin
   
   def initialize

@@ -40,6 +40,18 @@ describe TwoPence do
 
 end
 
+describe FivePence do
+
+  it "has a name: 5p" do
+    expect(FivePence.new.name).to eql "5p"
+  end
+
+  it "has a value in pence: 5" do
+    expect(FivePence.new.value).to eql 5
+  end
+
+end
+
 describe FiftyPence do
 
   it "has a name: 50p" do
