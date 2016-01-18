@@ -64,38 +64,41 @@ products in stock:
         http://sqa.fyicenter.com/Online_Test_Tools/Random_Price_Currency_Value_Generator.php
         https://www.random.org )
 
-#01 - £1.80 - [15] - cadbury snack
-#02 - £1.83 - [7] - cadburys dairy milk
-#03 - £0.89 - [11] - coke
-#04 - £1.26 - [8] - coke zero
-#05 - £1.37 - [9] - diet coke
-#06 - £1.11 - [3] - doritos cheese
-#07 - £1.57 - [1] - doritos chilli
-#08 - £0.37 - [13] - dr pepper
-#09 - £1.49 - [10] - fanta orange
-#10 - £0.64 - [8] - five alive
-#11 - £1.11 - [3] - kit kat
-#12 - £0.37 - [4] - mars bar
-#13 - £0.34 - [1] - mccoys bacon
-#14 - £1.71 - [14] - mccoys cheese & onion
-#15 - £1.58 - [3] - mccoys flaming steak
-#16 - £0.56 - [9] - mini cheddars
-#17 - £1.50 - [1] - mint aero
-#18 - £0.99 - [8] - oasis citrus punch
-#19 - £1.85 - [9] - oasis summer fruits
-#20 - £0.69 - [15] - oreo
-#21 - £0.59 - [8] - powerade berry
-#22 - £1.84 - [6] - powerade cherry
-#23 - £1.58 - [4] - powerade orange
-#24 - £0.47 - [4] - snickers
-#25 - £0.92 - [5] - sprite
-#26 - £1.87 - [10] - toffee crisp
-#27 - £1.49 - [10] - twirl
-#28 - £0.65 - [6] - twix
-#29 - £1.24 - [9] - walkers cheese & onion
-#30 - £1.31 - [7] - walkers ready salted
-#31 - £0.35 - [1] - walkers salt & vinegar
-#32 - £1.12 - [10] - yorkie
+
+`````````
+01 - £1.80 - [15] - cadbury snack
+02 - £1.83 - [7] - cadburys dairy milk
+03 - £0.89 - [11] - coke
+04 - £1.26 - [8] - coke zero
+05 - £1.37 - [9] - diet coke
+06 - £1.11 - [3] - doritos cheese
+07 - £1.57 - [1] - doritos chilli
+08 - £0.37 - [13] - dr pepper
+09 - £1.49 - [10] - fanta orange
+10 - £0.64 - [8] - five alive
+11 - £1.11 - [3] - kit kat
+12 - £0.37 - [4] - mars bar
+13 - £0.34 - [1] - mccoys bacon
+14 - £1.71 - [14] - mccoys cheese & onion
+15 - £1.58 - [3] - mccoys flaming steak
+16 - £0.56 - [9] - mini cheddars
+17 - £1.50 - [1] - mint aero
+18 - £0.99 - [8] - oasis citrus punch
+19 - £1.85 - [9] - oasis summer fruits
+20 - £0.69 - [15] - oreo
+21 - £0.59 - [8] - powerade berry
+22 - £1.84 - [6] - powerade cherry
+23 - £1.58 - [4] - powerade orange
+24 - £0.47 - [4] - snickers
+25 - £0.92 - [5] - sprite
+26 - £1.87 - [10] - toffee crisp
+27 - £1.49 - [10] - twirl
+28 - £0.65 - [6] - twix
+29 - £1.24 - [9] - walkers cheese & onion
+30 - £1.31 - [7] - walkers ready salted
+31 - £0.35 - [1] - walkers salt & vinegar
+32 - £1.12 - [10] - yorkie
+`````````
 
 enter produce number...
 > 17
@@ -117,4 +120,5 @@ cost: £1.50
 balance: £2.00
 Transaction complete! Returning:
 > Mint Aero
-> 50p
+
+> fiftyPence
