@@ -44,6 +44,16 @@ describe CoinHandler do
 
   end
 
+  context "sort_coins_by_value" do
+    it "orders from highest value to lowest" do
+      unordered = [FiftyPence.new, TwentyPence.new, TwoPounds.new, TenPence.new, TwoPence.new, OnePence.new, OnePound.new, FivePence.new]
+      ordered = [TwoPounds,OnePound,FiftyPence,TwentyPence,TenPence,FivePence,TwoPence,OnePence]
+      coins_returned = coin_handler.sort_coins_by_value(unordered)
+      classes_of_coins = coins_returned.map{|coin| coin.class}
+      expect(classes_of_coins).to match_array ordered
+    end
+  end
+
   context "split_into_coins" do
 
     context "when asked to split 3 pence" do
