@@ -32,8 +32,8 @@ The machine should keep track of the products and change that it contains.
     £2, 200
 
 ### machine
-- list<product>
-- list<coin>
+- list product
+- list coin
 
 
 ### order
@@ -46,9 +46,8 @@ The machine should keep track of the products and change that it contains.
 ### coinHandler
 - add_coins([fiftyPence, onePound]) -> 150
 
-- split_into_coins(100) -> [onePound] or [fiftyPence, fiftyPence] or all sorts of combos..
-  > but this depends on coin stock...
-- 
+- split_into_coins(100) -> [onePound] or [fiftyPence, fiftyPence] or all sorts of combos.. this depends on coin stock...
+
 
 ### gui
 - user_input_to_coin_convertor('50p') -> fiftyPence
